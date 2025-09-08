@@ -1,0 +1,17 @@
+<!-- relative path (upward path) -->
+<img src="../../cat.webp" height="200px" alt="cat image"><!--image in upward path-->
+
+<!-- this will not show the image because the browser blocks the relative path that goes outside of the main folder
+  like Web folder in this case so that a third person having this file cannot access the sencitive data in the path structure-->
+
+<img src="../../../../cat.webp" height="200px" alt="cat image"><!--image in upward path-->
+
+
+
+<!-- Absolute path -->
+<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQN4RJTrFs8g2czpTEQSVxRj3TS8nJo3tYC_pdF_cu3Rbtls5iuPYoDCyhdt1yxLY6WStReFUkJT9B9gECNAJ_1U66gJ7ffFtiVxCb_Y_YC" height="200px" alt="dog image">
+
+<!-- this will not show the image because the browser blocks the absolute path,
+  so that a third person having this file cannot access the sencitive data in the path structure-->
+<img src="C:\Users\t.jeevan.sai\OneDrive - Accenture\Desktop\WEB\HTML\Day03\root\Alpha\Beta\Cow.jpg" height="200px" alt="cow image">
+
