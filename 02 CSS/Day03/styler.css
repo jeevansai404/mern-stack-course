@@ -1,0 +1,33 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+h2{
+    background-color: cadetblue;
+    position:relative;
+    left: 200px;
+    /* top: 50px; */
+    /* right: 100px; */
+    /* bottom: 200px; */
+}
+h3{
+    background-color: blueviolet;
+    position: fixed;
+    top: 10px;
+    left:70px;
+    z-index: 15;
+}
+
+h4{
+    background-color: chartreuse;
+    position: sticky;
+    top: 30px;
+}
+p{
+    background-color: coral;
+    position: absolute;
+    top:0px;
+    left: 50px;
+    margin: 0px;
+    z-index: 20;
+}
