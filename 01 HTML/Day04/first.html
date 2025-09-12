@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>University Registration Form</h1>
+    <p>Please fill out the form</p>
+    <hr />
+
+    <form action="">
+        <h2>Personal Details</h2>
+        <label for="fn">First Name:</label>
+        <input type="text" name="Fname" id="fn" placeholder="">
+        <br />
+
+        <label for="ln">Last Name:</label>
+        <input type="text" name="Lname" id="ln" placeholder="">
+        <br />
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" name="dob" id="dob">
+        <br />
+
+        <h3>Gender</h3>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label>
+        <br />
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label>
+        <br />
+        <input type="radio" name="gender" id="other" value="other">
+        <label for="other">Other</label>
+        <br />
+
+        <h3>Upload Your Photo:</h3>
+        <input type="file" name="file">
+        <hr />
+
+        <h2>Contact Information</h2>
+
+        <label for="email">Email Address</label>
+        <input type="email" name="email" id="email">
+        <br />
+
+        <label for="phone">Phone</label>
+        <input type="tel" name="phone" id="phone">
+        <br />
+
+        <label for="address">Mailing Address</label>
+        <br />
+        <textarea name="address" id="address" rows="10" cols="30"></textarea>
+        <hr />
+
+        <h2>Academic Information</h2>
+
+        <label for="course">Select Your Course:</label>
+        <br />
+        <select name="course" id="course" >
+            <option value="" disabled selected hidden>--Choose a course--</option>
+            <option value="CSE">CSE</option>
+            <option value="ME">ME</option>
+            <option value="ECE">ECE</option>
+        </select>
+
+        <h3>Extracurricular Activities</h3>
+
+        <input type="checkbox" name="interest" id="Sports" value="Sports">
+        <label for="Sports">Sports</label>
+        <br />
+
+        <input type="checkbox" name="interest" id="Music" value="Music">
+        <label for="Music">Music</label>
+        <br />
+
+        <input type="checkbox" name="interest" id="Technology" value="Technology">
+        <label for="Technology">Technology</label>
+        <br />
+
+        <input type="checkbox" name="interest" id="Voluntering" value="Voluntering">
+        <label for="Voluntering">Voluntering</label>
+        <br />
+        <hr />
+
+        <h2>Create Your Account</h2>
+        <label for="pass">Create a Password:</label>
+        <input type="password" name="password" id="pass">
+        <br />
+
+        <label for="SQ">Security Question:</label>
+        <Select name="Security Question" id="SQ">
+            <option value="" disabled selected hidden>--Choose a question--</option>
+            <option value="What was your first pet's name?">What was your first pet's name?</option>
+            <option value="What was your birth place name?">What was your birth place name?</option>
+            <option value="What is your fav dish?">What is your fav dish?</option>
+        </Select>
+        <br />
+
+        <label for="ans">Security Answer:</label>
+        <input type="text" name="answer" id="ans">
+        <br />
+
+        <input type="checkbox" name="T&C" id="agree" value="I agree">
+        <label for="agree">I agree to the Terms and Conditions.</label>
+        <hr />
+
+        <input type="submit" value="Register">
+        <button type="reset">Clear Form</button>
+        <!-- 
+        <input> → Can only display plain text (e.g., "Register").  
+        <button> → More flexible: you can put text, images, or icons inside it, and style it more easily.  
+        Use <button> when you need more control over design/content,  
+        use <input> when you just need a simple submit/reset button. 
+        -->
+
+    </form>
+</body>
+</html>
