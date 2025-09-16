@@ -1,0 +1,39 @@
+.container{
+    background-color: aqua;
+    display: flex;
+    height: 400px;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    gap: 10px;
+}
+/* justify content: works around main axis
+ and main axis is decided by flex direction*/
+ /* align items works around cross axis */
+
+.box{
+    height: 100px;
+    width:100px;
+}
+
+.first{
+    background-color: orange;
+    /* flex-grow: 1; */
+    /* flex-basis: 200px; */
+}
+.second{
+    background-color: green;
+    /* flex-shrink: 4; */
+    /* flex-grow: 2; */
+    /* flex-basis: 400px; */
+
+}
+.third{
+    background-color: red;
+    align-self: flex-start ;
+    /* flex-grow: 3; */
+}
+.fourth{
+    background-color: chartreuse;
+}
